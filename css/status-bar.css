@@ -1,13 +1,9 @@
 .status-bar {
-  position: fixed;
-  width: 100%;
   display: flex;
   justify-content: space-between;
   background-color: white;
   color: #656565;
-  padding: 10px 20px;
-  left: 0px;
-  top: 0px;
+  margin-bottom: 30px;
 }
 
 .status-bar i {
@@ -15,5 +11,5 @@
 }
 
 .status-bar .status-bar__battery-level {
-  margin-left: 7px;
+  margin-left: 5px;
 }
